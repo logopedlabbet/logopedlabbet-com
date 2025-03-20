@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&display=swap');
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #212f36;
+}
+
+a:active {
+  text-decoration: none;
+  color: black;
+}
+
+.font-barriecito {
+  font-family: 'Barriecito', system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
