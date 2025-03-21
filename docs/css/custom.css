@@ -11871,6 +11871,15 @@ a:active {
   font-style: normal;
 }
 
+.bg-img-cover {
+  background-image: url(../img/cover-1.jpg);
+  background-color: rgba(255, 255, 255, 0.8);
+  background-blend-mode: lighten;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
 .bg-img-1 {
   background-image: url(../img/bg-1.jpg);
   background-color: rgba(255, 255, 255, 0.8);
