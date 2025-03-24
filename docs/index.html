@@ -44,13 +44,21 @@
       <div class="tab-pane show active" id="book">
 
         <div class="row p-3" height="1200px">
-
           <div class="col-sm">
             <img src="img/cover-1.jpg" class="img-fluid" alt="" />
             <p class="font-barriecito">Det här är historien om två syskon, Pia och Kalle, som kan både ryska och svenska och lär sig också tala med djur.</p>
           </div>
         </div>
 
+        <div class="row p-3 border-0 select position-relative">
+          <input type="image" src="img/pg-2.jpg" class="img-fluid mx-auto w-50" data-bs-toggle="modal" data-bs-target="#sample-pages-modal" />
+          <h2 class="position-absolute top-50 start-50">Preview</h2>
+        </div>
+
+<!-- Full screen modal -->
+<div class="modal fade" id="sample-pages-modal">
+<div class="modal-dialog modal-fullscreen modal-dialog-centered">
+<div class="modal-content justify-content-center">
         <!-- Carousel -->
         <div id="sample-pages" class="carousel carousel-dark slide p-3" data-bs-interval="false" data-ride="carousel" data-pause="hover">
           <!-- Indicators -->
@@ -78,6 +86,9 @@
           </div>
 
           <!-- Left and right controls/icons -->
+          <button class="btn-close carousel-control-close" type="button" data-bs-dismiss="modal">
+            <span class="carousel-control-close-icon"></span>
+	  </button>
           <button class="carousel-control-prev" type="button" data-bs-target="#sample-pages" data-bs-slide="prev">
             <span class="carousel-control-prev-icon"></span>
           </button>
@@ -85,6 +96,10 @@
             <span class="carousel-control-next-icon"></span>
           </button>
         </div>
+
+</div>
+</div>
+</div>
 
         <div class="row p-3">
           <div class="col-sm">
@@ -97,6 +112,7 @@
             </div>
           </div>
         </div>
+
       </div>
 
       <!-- PLAY TAB -->
@@ -188,4 +204,14 @@
       </div>
     </tab>
   </body>
+<script>
+function showModal() {
+    var modal = new bootstrap.Modal(document.getElementById('modal'));
+    modal.show();
+}
+function hideModal() {
+    var modal = new bootstrap.Modal(document.getElementById('modal'));
+    modal.hide();
+}
+</script>
 </html>
