@@ -52,13 +52,14 @@
 
         <div class="row p-3 border-0 select position-relative">
           <input type="image" src="img/pg-2.jpg" class="img-fluid mx-auto w-50" data-bs-toggle="modal" data-bs-target="#sample-pages-modal" />
-          <h2 class="position-absolute top-50 start-50">Preview</h2>
+          <h2 class="position-absolute top-50 start-50">Förhandsvisning</h2>
         </div>
 
 <!-- Full screen modal -->
 <div class="modal fade" id="sample-pages-modal">
 <div class="modal-dialog modal-fullscreen modal-dialog-centered">
 <div class="modal-content justify-content-center">
+
         <!-- Carousel -->
         <div id="sample-pages" class="carousel carousel-dark slide p-3" data-bs-interval="false" data-ride="carousel" data-pause="hover">
           <!-- Indicators -->
@@ -72,16 +73,16 @@
           <!-- Slideshow -->
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="img/pg-2.jpg" alt="Page 2" class="d-block mx-auto vw-100" />
+              <img src="img/pg-2.jpg" alt="Page 2" class="d-block mx-auto vh-100" />
             </div>
             <div class="carousel-item">
-              <img src="img/pg-3.jpg" alt="Page 3" class="d-block mx-auto vw-100" />
+              <img src="img/pg-3.jpg" alt="Page 3" class="d-block mx-auto vh-100" />
             </div>
             <div class="carousel-item">
-              <img src="img/pg-4.jpg" alt="Page 4" class="d-block mx-auto vw-100" />
+              <img src="img/pg-4.jpg" alt="Page 4" class="d-block mx-auto vh-100" />
             </div>
             <div class="carousel-item">
-              <img src="img/pg-5.jpg" alt="Page 5" class="d-block mx-auto vw-100" />
+              <img src="img/pg-5.jpg" alt="Page 5" class="d-block mx-auto vh-100" />
             </div>
           </div>
 
@@ -204,14 +205,4 @@
       </div>
     </tab>
   </body>
-<script>
-function showModal() {
-    var modal = new bootstrap.Modal(document.getElementById('modal'));
-    modal.show();
-}
-function hideModal() {
-    var modal = new bootstrap.Modal(document.getElementById('modal'));
-    modal.hide();
-}
-</script>
 </html>
