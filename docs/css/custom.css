@@ -11845,6 +11845,10 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.carousel .carousel-control-prev:hover, .carousel .carousel-control-next:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
 a:link {
   text-decoration: none;
   color: black;
@@ -11890,6 +11894,14 @@ a:active {
   background-image: url(../img/bg-2.jpg);
   background-color: rgba(255, 255, 255, 0.2);
   background-blend-mode: lighten;
+}
+
+.carousel .carousel-indicators li {
+  background-color: red;
+}
+
+.carousel .carousel-indicators li.active {
+  background-color: blue;
 }
 
 /*# sourceMappingURL=custom.css.map */

@@ -2,6 +2,10 @@
 
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
 
+.carousel .carousel-control-prev:hover, .carousel .carousel-control-next:hover  {
+    background-color:rgba(0, 0, 0, 0.5);
+}
+
 a:link {
   text-decoration: none;
   color: black;
@@ -48,3 +52,6 @@ a:active {
   background-color: rgba(255, 255, 255, 0.2);
   background-blend-mode: lighten;
 }
+
+.carousel .carousel-indicators li {background-color: red;}
+.carousel .carousel-indicators li.active {background-color: blue;}
