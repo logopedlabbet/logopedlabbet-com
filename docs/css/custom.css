@@ -11920,4 +11920,13 @@ a:active {
   color: rgba(0, 0, 0, 0.8);
 }
 
+.links {
+  position: fixed;
+  top: 35px;
+  z-index: 2;
+  right: 15px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
 /*# sourceMappingURL=custom.css.map */

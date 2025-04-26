@@ -14,8 +14,10 @@
   outline: none;
 }
 
-.carousel .carousel-control-prev:hover, .carousel .carousel-control-next:hover, .carousel .carousel-control-close:hover {
-  background-color:rgba(0, 0, 0, 0.2);
+.carousel .carousel-control-prev:hover,
+.carousel .carousel-control-next:hover,
+.carousel .carousel-control-close:hover {
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 a:link {
@@ -75,4 +77,13 @@ a:active {
   transition: opacity 0.3s ease-in-out;
   outline: none;
   color: rgba(0, 0, 0, 0.8);
+}
+
+.links {
+  position: fixed;
+  top: 35px;
+  z-index: 2;
+  right: 15px;
+  text-align: center;
+  font-size: 1.5em;
 }
